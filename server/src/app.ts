@@ -6,9 +6,9 @@ import { LaunchRouter } from './routes/launches.router';
 
 
 
-const morgan=require('morgan');
+
 export const app=express();
-//app.use(morgan('combined'));
+
 app.use(cors({
     origin: 'http://localhost:3000'
 }));
